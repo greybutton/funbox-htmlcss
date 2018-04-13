@@ -1,0 +1,30 @@
+.product
+  input(type='checkbox')#prod1.product__checkbox
+  label(for='prod1').product__card
+    .product__subdescription--container
+      .product__triangle.product__triangle--border
+      .product__triangle.product__triangle--bg
+      .product__subdescription.product__subdescription--default Сказочное заморское яство
+      .product__subdescription.product__subdescription--selected-hover Котэ не одобряет?
+    .product__text--container
+      .product__title Нямушка
+      .product__subtitle с фуа-гра
+      .product__option
+        span.option__count 10
+        span.option__text порций
+      .product__option
+        span.option__text мышь в подарок
+      .product__rate--container
+        .product__rate
+          .product__value 0,5
+          .product__currency кг
+      .product__image--container
+        .product__image
+          img(src='../images/cat.png')
+  .product__caption
+    .product__caption--item.product__caption--default Чего сидишь? Порадуй котэ,
+      label(for='prod1').product__action--container
+        span.product__action купи
+        span .
+    .product__caption--item.product__caption--selected Печень утки разварная с артишоками.
+    .product__caption--item.product__caption--disabled Печалька, с фуа-гра закончился.
